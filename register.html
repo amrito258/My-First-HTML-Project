@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Tirtho HTML</title>
+    <style>
+         #filehead{
+             text-align: center;
+             font-size: 40px;
+             font-family:Verdana, Geneva, Tahoma, sans-serif;
+         }
+         #resishead{
+             font-size: 30px;
+             font-family:Verdana, Geneva, Tahoma, sans-serif;
+         }
+         #resistd{
+             width: 410px;
+             background-color:rgba(119, 224, 119, 0.534);
+         }
+         #butcre{
+             width: 100%;
+             font-size: 20px;
+             background-color: rgb(79, 79, 241);
+             color: whitesmoke;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+         .resisdata{
+             font-size: 20px;
+             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+         #login{
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             font-weight: 1000;
+             color: rgb(154, 253, 6);
+         }
+         body{
+            background-image:url(https://www.planetware.com/wpimages/2020/01/germany-in-pictures-beautiful-places-to-photograph-black-forest.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+         }
+		 .inp{
+		 width :200px;
+		 height :25px;
+		 border-radius :15px;
+		 border-color :green;
+		 }
+    </style>
+</head>
+<body>
+<h1 id="filehead">Tirtho HTML</h1>
+    <table width="100%" border="0" cellspacing="2" cellpadding="2">
+        <tr>
+            <td width="600px">
+
+            </td>
+            <td id="resistd" align="center">
+                <h2 id="resishead" align="center"><u>Register</u></h2>
+                <table width="100%" border="0" cellspacing="2" cellpadding="2">
+                    <tr>
+                        <form name="resister" action="C:/Users/DELL/Documents/tirtho.php" target="_blank" method="post">
+                        <td class="resisdata">Full Name</td>
+                        <td>
+                            <input type="text" name="name" maxlength="60" placeholder="Enter Your Full Name" class="inp">
+                        </td>
+                        <tr>
+                            <td class="resisdata">E-Mail</td>
+                            <td>
+                                <input type="email" name="email" maxlength="80" placeholder="Enter Your E-Mail" class="inp">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="resisdata">Gender</td>
+                            <td>
+                                <input type="radio" name="gender" value="male"><span style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;">Male</span>
+                                <input type="radio" name="gender" value="female"><span style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;">Female</span>
+                                <input type="radio" name="gender" value="custom"><span style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;">Custom</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="resisdata">Date Of Birth</td>
+                            <td>
+                                <input type="date" name="birthday" class="inp">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="resisdata">Create Password</td>
+                            <td>
+                                <input type="password" name="password" maxlength="50" placeholder="New Password" class="inp">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="resisdata">Confirm Password</td>
+                            <td>
+                                <input type="password" name="confpass" maxlength="50" placeholder="Confirm Password" class="inp">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <button type="submit" name="submit" id="butcre">Create Account</button>
+                            </td>
+                        </tr>
+                        </form>
+                        <tr>
+                            <td colspan="2" align="center"id="login">Already Have An Account.....
+                                <a style="text-decoration: none; color: red;" href="file:///C:/Users/DELL/Documents/My%20First%20HTML%20Project/login.html">Log In</a></td>
+                        </tr>
+                </table>
+            </td>
+            <td width="600px">
+                
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
