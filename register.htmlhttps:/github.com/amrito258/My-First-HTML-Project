@@ -57,15 +57,15 @@
                 <h2 id="resishead" align="center"><u>Register</u></h2>
                 <table width="100%" border="0" cellspacing="2" cellpadding="2">
                     <tr>
-                        <form name="resister" action="C:/Users/DELL/Documents/tirtho.php" target="_blank" method="post">
+                        <form name="resister" action="C:/Users/DELL/Documents/tirtho.php" target="_blank" method="get">
                         <td class="resisdata">Full Name</td>
                         <td>
-                            <input type="text" name="name" maxlength="60" placeholder="Enter Your Full Name" class="inp">
+                            <input type="text" name="name" maxlength="60" placeholder="Enter Your Full Name" class="inp" required>
                         </td>
                         <tr>
                             <td class="resisdata">E-Mail</td>
                             <td>
-                                <input type="email" name="email" maxlength="80" placeholder="Enter Your E-Mail" class="inp">
+                                <input type="email" name="email" maxlength="80" placeholder="Enter Your E-Mail" class="inp" required>
                             </td>
                         </tr>
                         <tr>
@@ -85,13 +85,13 @@
                         <tr>
                             <td class="resisdata">Create Password</td>
                             <td>
-                                <input type="password" name="password" maxlength="50" placeholder="New Password" class="inp">
+                                <input type="password" name="password" maxlength="50" placeholder="New Password" class="inp" required>
                             </td>
                         </tr>
                         <tr>
                             <td class="resisdata">Confirm Password</td>
                             <td>
-                                <input type="password" name="confpass" maxlength="50" placeholder="Confirm Password" class="inp">
+                                <input type="password" name="confpass" maxlength="50" placeholder="Confirm Password" class="inp" required>
                             </td>
                         </tr>
                         <tr>
